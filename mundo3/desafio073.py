@@ -1,0 +1,12 @@
+times = ('Botafogo', 'Palmeiras', 'Grêmio', 'Flamengo', 'Fluminense', 'Red Bull Bragantino', 'Atletico PR', 'Fortaleza', 'Atlético-MG', 'Cuiabá-MT', 'São Paulo', 'Cruzeiro', 'Corinthians', 'Internacional', 'Goiás', 'Bahia', 'Santos', 'Vasco da Gama', 'América-MG', 'Coritiba')
+# print(f'Lista dos times do Brasileirão: {times}')
+for t in times:
+    print(f'{t}', end=', ')
+print('='*20)
+print('Os 5 primeiros colocados:', times[0:5])
+print('='*20)
+print('Os 4 últimos são:', times[16:])
+print('='*20)
+print('Times em ordem alfabetica:', sorted(times))
+print('='*20)
+print('A São Paulo ta na posição {}'.format(times.index('São Paulo') + 1))

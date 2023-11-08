@@ -1,7 +1,6 @@
 time = list()
 joga = dict()
 par = []
-print('Oi')
 
 while True:
     joga.clear()
